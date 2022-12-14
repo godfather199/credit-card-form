@@ -1,0 +1,176 @@
+.layout {
+    border: 2px solid black;
+    margin: 20px;
+    height: 650px;
+    background-color: lavenderblush;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.layoutTitle {
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    color: brown;
+}
+
+.layoutInstructions {
+    border: 2px solid black;
+    width: 18%;
+    padding: 8px;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+
+.layoutWrapper {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    height: 500px;
+    
+}
+
+.layoutImage {
+    border: 2px solid black;
+    height: 495px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 0px 0px 25px -6px black;
+}
+
+.layoutImageWrapper {
+    /* border: 5px solid green; */
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.layoutImg {
+    border: 2px dotted black;
+    width: 90%;
+    height: 150px;
+    background-color: gray;
+    box-shadow: 0px 0px 25px -7px black;
+}
+
+.layoutBtn {
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.layoutUploadBtn {
+    border: none;
+    background-color: blue;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    width: 90px;
+    border-radius: 7px;
+    box-shadow: 8px 8px 20px -6px black;
+}
+
+.layoutDetails {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: lightyellow;
+    box-shadow: 0px 0px 25px -6px black;
+}
+
+.layoutDetailsForm {
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding: 10px;
+    width: 95%;
+}
+
+.formGroup {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.formGroup > label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.formInput {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.formGroupBtn {
+    /* border: 2px solid blueviolet; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formSaveBtn {
+    border: none;
+    background-color: blue;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    width: 90px;
+    border-radius: 7px;
+    box-shadow: 8px 8px 20px -6px black;
+}
+
+.layoutSearchWrapper {
+    /* border: 3px solid red; */
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.layoutSearch {
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.layoutSearchBtn {
+    border: none;
+    background-color: blue;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    width: 90px;
+    border-radius: 7px;
+    box-shadow: 8px 8px 20px -6px black;
+}
+
+.layoutSearchResult {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: coral;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: 0px 0px 25px -6px black;
+}
+
